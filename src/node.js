@@ -43,3 +43,6 @@ class Visitor {
     charlie.save();
     load("Charlie Chaplin");
 
+// module.exports={save,
+//     load
+// }

@@ -31,9 +31,9 @@ class Visitor {
         });
     }
 
-    let alice = new Visitor('Alice Smith', 12, '12/03/2019', '13:26', 'yey!', 'Weston')
+    let alice = new Visitor('Alice Cooper', 12, '12/03/2019', '13:26', 'yey!', 'Weston')
     alice.save();
-    load("Alice Smith");
+    load("Alice Cooper");
 
     let bob = new Visitor('Bob Marley', 26, '1/06/2020', '08:26', 'Boring', 'Mpumelelo')
     bob.save();
@@ -43,6 +43,6 @@ class Visitor {
     charlie.save();
     load("Charlie Chaplin");
 
-// module.exports={save,
-//     load
-// }
+module.exports={
+    Visitor
+}

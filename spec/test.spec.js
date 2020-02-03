@@ -17,9 +17,7 @@ let objects = new Visitor(
     obj.Time,
     obj.Comments,
     obj.Assistant)
-
     
-
 describe('function save()', function() {
 
     let alice = new Visitor('Alice Cooper', 12, '12/03/2019', '13:26', 'yey!', 'Weston')

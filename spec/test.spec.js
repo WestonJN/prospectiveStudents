@@ -1,6 +1,7 @@
 const fs = require('fs');
 let {Visitor} = require('../src/visitor_details')
 
+//assignin values to the object
 let obj = {
     fullName: "Alice Cooper",
     Age: "12",
@@ -10,13 +11,13 @@ let obj = {
     assistant: "Weston"
 };  
 
-let objects = new Visitor(
-    obj.fullName,
-    obj.Age,
-    obj.Visit_date,
-    obj.Time,
-    obj.Comments,
-    obj.Assistant)
+// let objects = new Visitor(
+//     obj.fullName,
+//     obj.Age,
+//     obj.Visit_date,
+//     obj.Time,
+//     obj.Comments,
+//     obj.Assistant)
     
 describe('function save()', function() {
 
